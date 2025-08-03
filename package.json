@@ -5,8 +5,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": ""
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Scholak/iliyi-gunler.git"
+	},
+	"keywords": [
+		"iliyi-gunler",
+		"iyi ben sen",
+		"git giiiiit"
+	],
+	"author": "Sebahattin Çolak",
+	"license": "MIT",
+	"description": "",
+	"homepage": "https://github.com/Scholak/iliyi-gunler#readme"
 }
