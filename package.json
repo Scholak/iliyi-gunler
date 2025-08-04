@@ -1,11 +1,24 @@
 {
 	"name": "iliyi-gunler",
-	"version": "1.0.1",
-	"main": "./dist/index.js",
+	"version": "1.0.2",
+	"description": "",
+	"author": "Sebahattin Çolak",
+	"license": "MIT",
+	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
-		"build": "tsup"
+		"build": "tsup",
+		"prepublishOnly": "npm run build"
 	},
 	"repository": {
 		"type": "git",
@@ -16,9 +29,6 @@
 		"iyi ben sen",
 		"git giiiiit"
 	],
-	"author": "Sebahattin Çolak",
-	"license": "MIT",
-	"description": "",
 	"homepage": "https://github.com/Scholak/iliyi-gunler#readme",
 	"devDependencies": {
 		"tsup": "^8.5.0",
